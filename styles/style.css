@@ -261,7 +261,7 @@
   color: #fff;
 }
 
-.card__staff {
+.staff__picks {
   max-width: 760px;
   display: flex;
   flex-wrap: wrap;
