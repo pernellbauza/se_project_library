@@ -240,9 +240,9 @@
   background-image: url(../images/staff_picks_background.jpg);
 }
 
-.staff__image {
+/*.staff__image {
 
-}
+}*/
 
 .staff__title {
   text-align: center;
@@ -337,7 +337,6 @@
 }
 
 .step {
-  display: row;
   flex-basis: auto;
   /*justify-content: center;*/
   width: 220px;
