@@ -21,7 +21,6 @@
 .nav {
   display: flex;
   justify-content: space-between;
-  /* Add flex properties here */
 }
 
 .logo {
@@ -32,7 +31,6 @@
 }
 
 .nav__links {
-  /* Reset default list styles here */
   margin: 8px 0 0;
   column-gap: 20px;
   list-style-type: none;
@@ -252,10 +250,6 @@
   background-image: url(../images/staff_picks_background.jpg);
 }
 
-/*.staff__image {
-
-}*/
-
 .staff__title {
   text-align: center;
   font-size: 44px;
@@ -283,8 +277,6 @@
   list-style-type: none;
   margin-top: 68px;
 }
-
-/* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
 
 .card {
   background-color: #fff;
@@ -344,17 +336,12 @@
   align-content: stretch;
   justify-content: center;
   gap: 40px;
-  /*background-color: red;*/
-  /* Add styles */
 }
 
 .step {
   flex-basis: auto;
-  /*justify-content: center;*/
   width: 220px;
   align-content: stretch;
-
-  /* Add styles */
 }
 
 .step__title {
@@ -447,7 +434,6 @@
 }
 
 .footer__list {
-  /* The code below removes the default browser styles for lists */
   list-style-type: none;
   padding: 0;
   margin: 0;
