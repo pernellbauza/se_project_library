@@ -302,7 +302,7 @@
 }
 
 .card__footer {
-  margin-top: auto;
+  margin: auto 0 0;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
@@ -385,7 +385,7 @@
   margin: 0 0 32px;
 }
 
-.about__paragraphs:last-child {
+.about__paragraph:last-child {
   margin: 0;
 }
 
@@ -427,8 +427,12 @@
   margin: 0;
 }
 
-.footer__list-item:last-of-type {
+.footer__list-item {
   margin-bottom: 16px;
+}
+
+.footer__list-item:last-of-type {
+  margin-bottom: 0;
 }
 
 .footer__column-heading {
